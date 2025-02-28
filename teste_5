@@ -1,0 +1,11 @@
+function reverse(string) {
+    var output = '',
+        length = string.length
+    while (length--) {
+        output+= string[length]
+    }
+    return output
+}
+showResults(reverse)
+showResults("RESPOSTA TESTE 5")
+showResults(reverse('batata'))
